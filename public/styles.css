@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+nav {
+  height:6vw;
+  font-size:2.3vw;
+  max-height: 70px;
+  
+}
+#logo {
+  width: 5vw;
+  height: 5vw;
+  max-height:70px;
+  max-width:70px;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: #ccc;
+}
+
+/* Earthy and muted styling */
+/* Customize these colors to match your desired earthy tones */
+.main-content {
+  background-color: #e5d8c3;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styles for different views, like past-projects.css, current-project.css, etc. */
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+
+.fallback-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
